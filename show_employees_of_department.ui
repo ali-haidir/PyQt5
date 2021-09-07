@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>3342</width>
+    <height>1732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(238, 238, 236);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>20</y>
+      <width>331</width>
+      <height>1600</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <stylestrategy>PreferDefault</stylestrategy>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(184, 255, 168);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>301</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>media/Logo.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>329</x>
+      <y>20</y>
+      <width>2871</width>
+      <height>1600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFFAFA</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>26</y>
+       <width>1000</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Ubuntu Condensed</family>
+       <pointsize>19</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>Greenvorxs Employees of this department</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="specific_employee_tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>2800</width>
+       <height>1300</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>57</number>
+     </attribute>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Employee Name</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Employee ID</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Username</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Position</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Work Mobile</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>CNIC</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nationality</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Gender</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Marital Status</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>City</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Work Email</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="background">
+       <color>
+        <red>184</red>
+        <green>255</green>
+        <blue>168</blue>
+       </color>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="back_pushButton">
+     <property name="geometry">
+      <rect>
+       <x>1270</x>
+       <y>1470</y>
+       <width>241</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(138, 226, 52);
+border-radius: 20px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Dashboard</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3342</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
